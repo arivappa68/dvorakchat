@@ -1,5 +1,5 @@
 # dvorakchat community
-##  [Explore](https://dvorakchat.000webhostapp.com/)
+### [Explore](https://dvorakchat.000webhostapp.com/)
 
 Checkout live site on : https://dvorakchat.000webhostapp.com/
 
@@ -48,7 +48,7 @@ If you'd like to request a new feature, feel free to do so by opening an issue. 
 
 ### Initialization 
 ---
-Started in regards of hackoverflow hackathon in our college.  
+Started in regards to hackoverflow hackathon in our college.  
 ```shell
 Team Name: ERROR 
 Team Members: Wasim Roshan M
