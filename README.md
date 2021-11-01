@@ -4,6 +4,7 @@
 Checkout live site on : https://dvorakchat.000webhostapp.com/
 
 ![](https://github.com/arivappa68/dvorakchat/blob/main/images/updatedIndex.png?raw=true)
+![](https://github.com/arivappa68/dvorakchat/blob/main/images/darkModeIndex.png?raw=true) 
 ![](https://github.com/arivappa68/dvorakchat/blob/main/images/converter.png?raw=true)
 ![](https://github.com/arivappa68/dvorakchat/blob/main/images/discussionsTab.png?raw=true)
 

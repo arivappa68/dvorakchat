@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html id="html-toggle">
   <head>
     <meta charset="utf-8">
     <meta name="description" content="">
@@ -7,6 +7,7 @@
     <title></title>
     <link rel="StyleSheet" href="../style/style.css"/>
     <script src="../script/script.js"></script>
+    <script src="../script/toggle.js"></script>
   </head>
   <body>
     <header>

@@ -1,4 +1,4 @@
-<html id="index-html">
+<html id="html-toggle">
   <head>
     <meta charset="utf-8">
     <meta name="description" content="">
@@ -19,7 +19,9 @@
     <link href='https://fonts.googleapis.com/css?family=Piedra' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Permanent Marker' rel='stylesheet'>
     <link rel="StyleSheet" href="style/style.css"/>
+    <!-- <script src="script/script.js"></script> -->
     <script src="script/script.js"></script>
+    <script src="script/toggle.js"></script>
   </head>
   <body id="index-body">
     <header class="noselect">
@@ -90,8 +92,14 @@
       </div><br/>
       <div style="display:inline-block!important; font-size:12px">
         <span>
-          <b> KEYBOARD LAYOUT </b>
+          <b>KEYBOARD LAYOUT </b>
           <button type="button" style="font-size:12px" onclick="window.location.href='preConverter/converter.html'"><b>CONVERTER</b></button>
+        </span>
+      </div>
+      <div style="display:inline-block!important; font-size:12px">
+        <span>
+          <button type="button" style="font-size:12px" id="toggleButton" onclick="toggleButtonClick();"><b>TOGGLE</b></button>
+          <b>DARK MODE </b>
         </span>
       </div>
     </main>
