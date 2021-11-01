@@ -14,7 +14,7 @@
         <strong class="noselect"><b><a style="text-decoration:none" href="../prePlatform/sectors.php">BACK</a></b></strong>
       </div>
     </header>
-    <h4 class="noselect">DATABASE</h4> 
+    <h4 class="noselect">DATABASE</h4>
   </body>
   <footer>
     <div class="noselect" id="footer">

@@ -1,6 +1,16 @@
 #popup-button{
   text-align:left;
 }
+#index-body {
+	margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 0;
+	color: black;
+  text-align:center;
+	font-family:'Inknut Antiqua','Belleza','Times New Roman', Arial, sans-serif;
+}
 body {
 	margin-top: 8px;
   margin-bottom: 8px;
@@ -8,10 +18,7 @@ body {
   margin-right: 8px;
   padding: 0;
 	color: black;
-	font-family:'Inknut Antiqua','Belleza','Times New Roman', Arial, sans-serif;
-}
-#index-body{
-  text-align:center;
+	font-family:'Belleza','Times New Roman', Arial, sans-serif;
 }
 .noselect {
   -webkit-touch-callout: none;
@@ -37,6 +44,7 @@ body {
 }
 #footer{
   font-size:12px;
+  font-family:'Inknut Antiqua','Belleza','Times New Roman', Arial, sans-serif;
 }
 #chat{
   font-size:15px;
@@ -52,3 +60,39 @@ body {
   background-size: cover;
 }
 */
+#main-heading {
+	text-align: left;
+	padding: 0px 0px 0px 8%;
+  font-family:'Inknut Antiqua','Belleza','Times New Roman', Arial, sans-serif;
+}
+#converter-main-heading{
+  text-align: left;
+  padding: 0px 0px 0px 0px;
+  font-family:'Inknut Antiqua','Belleza','Times New Roman', Arial, sans-serif;
+}
+#prePlatform-main-heading{
+  text-align: left;
+  padding: 0px 0px 0px 2%;
+  font-family:'Inknut Antiqua','Belleza','Times New Roman', Arial, sans-serif;
+}
+#text-boxes {
+  text-align: left;
+}
+#center-elements {
+  text-align: left;
+}
+#container {
+  text-align: center;
+}
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+#about-converter-text{
+  text-align:left;
+  font-family:'Belleza','Times New Roman', Arial, sans-serif;
+}
