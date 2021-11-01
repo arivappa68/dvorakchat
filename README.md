@@ -3,13 +3,15 @@
 
 Checkout live site on : https://dvorakchat.000webhostapp.com/
 
-![](https://github.com/arivappa68/dvorakchat/blob/main/images/index.png?raw=true)
-
+![](https://github.com/arivappa68/dvorakchat/blob/main/images/updatedIndex.png?raw=true)
+![](https://github.com/arivappa68/dvorakchat/blob/main/images/converter.png?raw=true)
 ![](https://github.com/arivappa68/dvorakchat/blob/main/images/discussionsTab.png?raw=true)
+
 
 ###  About
 ---
-- Replaces suggestions box to some extent.  
+- Replaces suggestions box to some extent.   
+- Layout converters to convert from qwerty, dvorak, and colemak.
 - Giving scope to anonymous suggestions.
 - Place for downloading pdf books, in particular topics.
 - Sharing their advice in particular domains with the community.
