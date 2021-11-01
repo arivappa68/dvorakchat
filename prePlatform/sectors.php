@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>community</title>
     <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inknut Antiqua' rel='stylesheet'>
     <link rel="StyleSheet" href="../style/style.css"/>
     <script src="../script/script.js">
     </script>
   </head>
   <body>
-    <h3 class="noselect" id="main-heading"><span id="change-words">CONNECT WITH </span><a style="text-decoration:none" href="../index.php">THE COMMUNITY</a></h3>
+    <h3 class="noselect" id="prePlatform-main-heading"><span id="change-words">CONNECT WITH </span><a style="text-decoration:none" href="../index.php">THE COMMUNITY</a></h3>
     <div style="font-variant:small-caps" class="noselect" id="center-elements">
       Explore the different resources and discussion tabs....!<br/>
     </div>

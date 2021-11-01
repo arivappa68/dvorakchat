@@ -23,7 +23,7 @@
   </head>
   <body id="index-body">
     <header class="noselect">
-      <h3 class="noselect" id="main-heading">COMMUNITY TO SHARE</h3>
+      <h3 class="noselect" id="index-main-heading">COMMUNITY TO SHARE</h3>
       <div class="noselect" id="quote-place">
         Every individual in the world has a unique contribution<br/>
       </div>
@@ -81,13 +81,19 @@
     <main>
       <h4 class="noselect">WELCOME</h4>
       <div class="container noselect">
-      <div style="display:inline-block!important">
+      <div style="display:inline-block!important; font-size:20px;">
          <span>
            <button type="button" style="font-size:12px" onclick="window.location.href='prePlatform/sectors.php'"><b>ASSOCIATE</b></button>
            <button type="button" style="font-size:12px" onclick="window.location.href='prePlatform/ideaList.php'"><b>ADVICE</b></button>
-           <h2 id="communityplace"> THE COMMUNITY </h2>
+           <h3 id="communityplace"> THE COMMUNITY </h3>
          </span>
       </div><br/>
+      <div style="display:inline-block!important; font-size:12px">
+        <span>
+          <b> KEYBOARD LAYOUT </b>
+          <button type="button" style="font-size:12px" onclick="window.location.href='preConverter/converter.html'"><b>CONVERTER</b></button>
+        </span>
+      </div>
     </main>
     <footer class="noselect" id="footer">
        <p>product by <strong><b>ERROR</b></strong></p>
