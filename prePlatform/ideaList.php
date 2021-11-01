@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html id="html-toggle">
   <head>
     <meta name="description" content="contribute to community">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +7,8 @@
     <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Inknut Antiqua' rel='stylesheet'>
     <link rel="StyleSheet" href="../style/style.css"/>
-    <script src="../script/script.js">
-    </script>
+    <script src="../script/script.js"></script>
+    <script src="../script/toggle.js"></script>
   </head>
   <body>
     <h3 class="noselect" id="prePlatform-main-heading"><span id="change-word">EMPOWER</span> <a style="text-decoration:none" href="../index.php">THE COMMUNITY</a></h3>

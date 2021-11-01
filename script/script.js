@@ -15,3 +15,42 @@ function passwordVisible() {
     x.type = "password";
   }
 }
+/*
+function toggle(){
+  if(document.getElementById("html-toggle").style.backgroundColor == "white"){
+      document.getElementById("html-toggle").style.backgroundColor = "black";
+      document.getElementById("html-toggle").style.color = "white";
+  }else{
+    document.getElementById("html-toggle").style.backgroundColor = "white";
+    document.getElementById("html-toggle").style.color = "black";
+  }
+}
+*/
+/*
+let toggleStorage = localStorage.getItem("toggleStorage");
+const toggleButtonVar = document.querySelector("#toggleButton");
+
+const enableDark = ()=>{
+  document.getElementById("html-toggle").style.backgroundColor = "black";
+  document.getElementById("html-toggle").style.color = "white";
+  localStorage.setItem("toggleStorage","true");
+}
+const enableWhite = ()=>{
+  document.getElementById("html-toggle").style.backgroundColor = "white";
+  document.getElementById("html-toggle").style.color = "black";
+  localStorage.setItem("toggleStorage","false");
+}
+if(toggleStorage == "true"){
+  enableDark();
+}
+toggleButtonVar.addEventListener("click", ()=>{
+  toggleStorage = localStorage.getItem("toggleStorage");
+  if(toggleStorage == "true"){
+    enableWhite();
+    console.log(localStorage.getItem("toggleStorage"));
+  }else{
+    enableDark();
+    console.log(localStorage.getItem("toggleStorage"));
+  }
+});
+*/

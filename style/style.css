@@ -7,7 +7,7 @@
   margin-left: 8px;
   margin-right: 8px;
   padding: 0;
-	color: black;
+	/* color: black; */
   text-align:center;
 	font-family:'Inknut Antiqua','Belleza','Times New Roman', Arial, sans-serif;
 }
@@ -17,7 +17,7 @@ body {
   margin-left: 8px;
   margin-right: 8px;
   padding: 0;
-	color: black;
+	/* color: black; */
 	font-family:'Belleza','Times New Roman', Arial, sans-serif;
 }
 .noselect {
@@ -96,3 +96,9 @@ img {
   text-align:left;
   font-family:'Belleza','Times New Roman', Arial, sans-serif;
 }
+/*
+#html-toggle{
+  color: white;
+  background-color:black;
+}
+*/
