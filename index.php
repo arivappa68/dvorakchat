@@ -90,6 +90,7 @@
            <h3 id="communityplace"> THE COMMUNITY </h3>
          </span>
       </div><br/>
+      <!--
       <div style="display:inline-block!important; font-size:12px">
         <span>
           <b>KEYBOARD LAYOUT </b>
@@ -102,9 +103,32 @@
           <b>DARK MODE </b>
         </span>
       </div>
+    -->
     </main>
-    <footer class="noselect" id="footer">
-       <p>product by <strong><b>ERROR</b></strong></p>
+    <footer class="noselect;floatFooterIndex" id="footer">
+      <div style="display:inline-block!important; font-size:12px">
+        <span>
+          <b>KEYBOARD LAYOUT </b>
+          <button type="button" style="font-size:12px" onclick="window.location.href='preConverter/converter.html'"><b>CONVERTER</b></button>
+        </span>
+      </div>
+      <b>||</b>
+      <div style="display:inline-block!important; font-size:12px">
+        <span>
+          <button type="button" style="font-size:12px" id="toggleButton" onclick="toggleButtonClick();"><b>TOGGLE</b></button>
+          <b>DARK MODE </b>
+        </span>
+      </div>
+         <p >product by <strong><b>ERROR</b></strong></p>
     </footer>
+    <script>
+        if(window.innerWidth < 450){
+           console.log("yes");
+           floatFooterCorrection();
+        }else{
+           console.log("no");
+           floatFooterCorrectionSecond();
+        }
+    </script>
   </body>
 </html>
