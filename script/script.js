@@ -15,6 +15,12 @@ function passwordVisible() {
     x.type = "password";
   }
 }
+function floatFooterCorrection(){
+  document.getElementById("footer").classList.remove("floatFooterIndex");
+}
+function floatFooterCorrectionSecond(){
+  document.getElementById("footer").classList.add("floatFooterIndex");
+}
 /*
 function toggle(){
   if(document.getElementById("html-toggle").style.backgroundColor == "white"){

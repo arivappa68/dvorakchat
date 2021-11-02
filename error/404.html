@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html id="html-toggle">
+  <head>
+    <meta name="description" content="Page-Not-Found">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>community</title>
+    <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inknut Antiqua' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Zilla Slab Highlight' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=New Rocker' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Marko One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lacquer' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Autour One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Yusei Magic' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=UnifrakturCook:700' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Rock Salt' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Piedra' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Permanent Marker' rel='stylesheet'>
+    <link rel="StyleSheet" href="../style/style.css"/>
+    <script src="../script/index.js"></script>
+    <script src="../script/script.js"></script>
+    <script src="../script/toggle.js"></script>
+  </head>
+  <body id="error-page">
+    <div class="noselect">
+      <a style="text-decoration:none" href="../index.php"><b>THE COMMUNITY</b></a>
+      <br></br>
+      <b id="error1"></b>
+      <br>
+      <b id="error404" style="font-size:65px">404</b>
+      <h3>OUT OF DVORAKCHAT</h3>
+    </div>
+  </body>
+  <footer class="floatFooter">
+    <div class="noselect" id="footer">
+      <p>product by <strong><b id="error2"></b></strong></p>
+    </div>
+  </footer>
+  <script>
+  setTimeout(function(){
+    document.getElementById("error1").innerHTML = "ERROR";
+    document.getElementById("error2").innerHTML = "ERROR";
+  }, 1000);
+  </script>
+  <script>
+        function myAnimationFont() {
+        var ifont = 0;
+        const fonts = ["Zilla Slab Highlight","Permanent Marker","New Rocker","UnifrakturCook","Marko One","Lacquer","Alatsi","Rock Salt","Alfa Slab One","Autour One","Piedra","Inknut Antiqua"];
+        //clearInterval(idfont);
+        setInterval(frame2, 2700);
+        function frame2() {
+          document.getElementById("error404").style.fontFamily = fonts[ifont];
+          if(ifont<11){
+             ifont = ifont + 1;
+          }else{
+             ifont = 0;
+          }
+        }
+      }
+      var kfont=1;
+      if(kfont==1){
+         myAnimationFont();
+      }
+  </script>
+</html>

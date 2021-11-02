@@ -11,6 +11,16 @@
   text-align:center;
 	font-family:'Inknut Antiqua','Belleza','Times New Roman', Arial, sans-serif;
 }
+#error-page {
+	margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 0;
+	/* color: black; */
+  text-align:center;
+	font-family:'Inknut Antiqua','Belleza','Times New Roman', Arial, sans-serif;
+}
 body {
 	margin-top: 8px;
   margin-bottom: 8px;
@@ -95,6 +105,20 @@ img {
 #about-converter-text{
   text-align:left;
   font-family:'Belleza','Times New Roman', Arial, sans-serif;
+}
+.floatFooter {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+.floatFooterIndex {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
 }
 /*
 #html-toggle{
